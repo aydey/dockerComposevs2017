@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dockercomposefordockerhub:
+    image: aydey/dockercomposefordockerhub
+    build:
+      context: ./DockerComposeForDockerHub
+      dockerfile: Dockerfile
